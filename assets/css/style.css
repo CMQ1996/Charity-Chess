@@ -1,5 +1,8 @@
+/*google font import*/
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*Styles for body and nav bar*/
 body {
-    font-family: Arial, sans-serif;
+    font-family: Roboto, Inclusive-Sans;
     margin: 0;
     padding: 0;
 }
@@ -34,3 +37,10 @@ nav {
 .nav-links a:hover {
     background-color: #575757; /* Change background on hover */
 }
+
+/*styling for page logo*/
+#logo {
+    font-family: Roboto; /*Changes font to Roboto for better accessability*/
+    text-transform: uppercase;
+    letter-spacing: 2px;
+   }
