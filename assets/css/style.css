@@ -55,5 +55,30 @@ nav {
     background: url("../images/pexels-alex-green-5692995.jpg") no-repeat center center/cover;
     position: relative;
     }
+    .container {
+        display: flex;
+        gap: 20px; /* Space between the divs */
+    }
+
+    .box {
+        padding: 20px;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        flex: 1; /* Makes all boxes equal width */
+        text-align: center; /* Center content horizontally */
+    }
     /*footer styles*/
+    #social-networks {
+        text-align: center;
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+    }
+    
+    #social-networks i {
+        font-size: 160%;
+        padding: 5%;
+        color: #3a3a3a;
+    }
     
