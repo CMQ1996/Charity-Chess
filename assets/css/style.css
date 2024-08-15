@@ -48,6 +48,10 @@ nav {
     color: black;
     text-align: center; /*This alligns the text to the center to make it more visually appealing*/
     text-decoration-line: none;
+}
+
+.logo-style{
+        text-decoration: none;
     }
 
     /*body image styling*/
