@@ -12,9 +12,10 @@ body {
 nav {
     
     display: flex;
-    justify-content: center; /*moves navbar content to the center*/
-    text-align: center;
+    justify-content: right; /*moves navbar content to the center*/
+    text-align: right;
     padding-left: 0;
+    padding-right: 20px;
    }
 
 .nav-links {
@@ -33,6 +34,7 @@ nav {
     text-decoration: none;
     padding: 14px 20px;  /* Adds padding around links */
     display: block; /* Makes the link block-level for easier clicking */
+    font-size:x-large;
 }
 
 .nav-links a:hover {
@@ -44,10 +46,10 @@ nav {
     font-family: Roboto; /*Changes font to Roboto for better accessability*/
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 8vh;
+    font-size: 6vh;
     color: black;
-    text-align: center; /*This alligns the text to the center to make it more visually appealing*/
-    text-decoration-line: none;
+    text-align: left; /*This aligns the text to the left to make it more visually appealing*/
+    padding-top: 5rem;
 }
 
 .logo-style{
@@ -56,7 +58,7 @@ nav {
 
     /*body image styling*/
     #chess-image {
-    height: 600px;
+    height: 700px;
     width: 100%;
     background: url("../images/pexels-alex-green-5692995.jpg") no-repeat center center/cover;
     position: relative;
