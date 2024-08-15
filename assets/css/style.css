@@ -77,6 +77,8 @@ nav {
     /*sign up form styles*/
     .form-title {
         text-align: center;
+        padding-bottom: 1.5rem;
+        padding-top: 1rem;
     }
 
 
