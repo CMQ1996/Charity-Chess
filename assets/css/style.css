@@ -272,24 +272,89 @@ nav {
     color: #3a3a3a;
 }
 
-/*media query*/
-@media only screen and (max-width: 600px) {
+/*media query for nav bar*/
+@media only screen and (max-width: 768px) {
     nav {
-        justify-content: center; /* Center nav items */
-        padding-right: 10px; /* Adjust padding */
+        justify-content: center;
+        /* Center nav items */
+        padding-right: 10px;
+        /* Adjust padding */
     }
 
     .nav-links {
-        flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center align vertically stacked items */
+        flex-direction: column;
+        /* Stack items vertically */
+        align-items: center;
+        /* Center align vertically stacked items */
     }
 
     .nav-links li {
-        margin: 10px 0; /* Adjust spacing between items */
+        margin: 10px 0;
+        /* Adjust spacing between items */
     }
 
     .nav-links a {
-        font-size: large; /* Adjust font size */
-        padding: 10px 15px; /* Adjust padding */
+        font-size: large;
+        /* Adjust font size */
+        padding: 10px 15px;
+        /* Adjust padding */
+    }
+    /*ensures about us text remains inside images*/
+    #about-us,
+    #about-us2,
+    #about-us3 {
+        width: 90%;
+        font-size: 18px;
+        /* Adjust font size */
+        padding: 8px;
+        /* Adjust padding */
+    }
+    /*ensures activities cover text remains inside images*/
+    #activities-cover-text1,
+    #activities-cover-text2,
+    #activities-cover-text3 {
+        width: 90%;
+        font-size: 18px;
+        /* Adjust font size */
+        padding: 8px;
+        /* Adjust padding */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    nav {
+        padding-right: 5px;
+        /* Further adjust padding */
+    }
+
+    .nav-links a {
+        font-size: medium;
+        /* Further reduce font size */
+        padding: 8px 10px;
+        /* Further reduce padding */
+    }
+
+    .nav-links li {
+        margin: 5px 0;
+        /* Reduce margin between items */
+    }
+    #about-us,
+    #about-us2,
+    #about-us3 {
+        width: 95%;
+        font-size: 16px;
+        /* Adjust font size */
+        padding: 8px;
+        /* Adjust padding */
+    }
+
+    #activities-cover-text1,
+    #activities-cover-text2,
+    #activities-cover-text3 {
+        width: 95%;
+        font-size: 16px;
+        /* Further adjust font size */
+        padding: 6px;
+        /* Further adjust padding */
     }
 }
