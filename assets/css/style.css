@@ -271,7 +271,25 @@ nav {
     padding: 5%;
     color: #3a3a3a;
 }
-/*media query for moble devices*/
-@media all and (max-width: 344px;) {
-      
+
+/*media query*/
+@media only screen and (max-width: 600px) {
+    nav {
+        justify-content: center; /* Center nav items */
+        padding-right: 10px; /* Adjust padding */
+    }
+
+    .nav-links {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center align vertically stacked items */
+    }
+
+    .nav-links li {
+        margin: 10px 0; /* Adjust spacing between items */
+    }
+
+    .nav-links a {
+        font-size: large; /* Adjust font size */
+        padding: 10px 15px; /* Adjust padding */
+    }
 }
