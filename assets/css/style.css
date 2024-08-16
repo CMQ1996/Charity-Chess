@@ -63,6 +63,18 @@ nav {
     background: url("../images/pexels-alex-green-5692995.jpg") no-repeat center center/cover;
     position: relative;
     }
+    #chess-image2 {
+        height: 700px;
+    width: 100%;
+    background: url("../images/pexels-pixabay-260024.jpg") no-repeat center center/cover;
+    position: relative;
+    }
+    #chess-image3 {
+        height: 700px;
+        width: 100%;
+        background: url("../images/pexels-anastasia-shuraeva-8466163.jpg") no-repeat center center/cover;
+        position: relative;
+    }
     .container {
         display: flex;
         gap: 20px; /* Space between the divs */
