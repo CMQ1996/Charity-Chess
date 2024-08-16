@@ -18,7 +18,7 @@ nav {
     text-align: right;
     padding-left: 0;
     padding-right: 20px;
-    
+
 }
 
 .nav-links {
@@ -104,7 +104,9 @@ nav {
     /* Center content horizontally */
 }
 
-#about-us, #about-us2, #about-us3 {
+#about-us,
+#about-us2,
+#about-us3 {
     position: absolute;
     bottom: 50%;
     width: 75%;
@@ -122,25 +124,31 @@ nav {
 #activities-section {
     text-align: center;
 }
+
 #activities-image1 {
     height: 700px;
     width: 100%;
     background: url("../images/pexels-emrekeshavarz-7021075.jpg") no-repeat center center/cover;
     position: relative;
 }
+
 #activities-image2 {
     height: 700px;
     width: 100%;
     background: url("../images/pexels-rdne-7978834.jpg") no-repeat center center/cover;
     position: relative;
 }
+
 #activities-image3 {
     height: 700px;
     width: 100%;
     background: url("../images/pexels-karolina-grabowska-6955013.jpg") no-repeat center center/cover;
     position: relative;
 }
-#activities-cover-text1, #activities-cover-text2, #activities-cover-text3 {
+
+#activities-cover-text1,
+#activities-cover-text2,
+#activities-cover-text3 {
     position: absolute;
     bottom: 50%;
     width: 75%;
@@ -152,8 +160,8 @@ nav {
     padding: 10px;
     font-size: 20px;
     /* Adjust as needed */
-   }
- 
+}
+
 
 /*sign up form styles*/
 .form-title {
@@ -222,6 +230,7 @@ nav {
 .signup-form button:hover {
     background-color: #45a049;
 }
+
 /*contact us styles*/
 #contact-us-image {
     height: 700px;
@@ -229,9 +238,9 @@ nav {
     background: url("../images/pexels-lucianphotography-3566191.jpg") no-repeat center center/cover;
     position: relative;
 }
+
 #contacts {
     position: absolute;
- 
     width: 75%;
     text-align: center;
     color: white;
@@ -241,6 +250,7 @@ nav {
     padding: 10px;
     font-size: 20px;
 }
+
 /*footer styles*/
 #social-networks {
     text-align: center;
@@ -251,7 +261,8 @@ nav {
     position: fixed;
     bottom: 0;
     width: 100%;
-    z-index: 1000; /* Ensures footer is above other content */
+    z-index: 1000;
+    /* Ensures footer is above other content */
 }
 
 
@@ -259,4 +270,8 @@ nav {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
+}
+/*media query for moble devices*/
+@media all and (max-width: 344px;) {
+      
 }
