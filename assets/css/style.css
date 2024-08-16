@@ -117,6 +117,28 @@ nav {
     /* Adjust as needed */
 }
 
+/*activities section styling*/
+#activities-section {
+    text-align: center;
+}
+#activities-image1 {
+    height: 700px;
+    width: 100%;
+    background: url("../images/pexels-emrekeshavarz-7021075.jpg") no-repeat center center/cover;
+    position: relative;
+}
+#activities-image2 {
+    height: 700px;
+    width: 100%;
+    background: url("../images/pexels-rdne-7978834.jpg") no-repeat center center/cover;
+    position: relative;
+}
+#activities-image3 {
+    height: 700px;
+    width: 100%;
+    background: url("../images/pexels-karolina-grabowska-6955013.jpg") no-repeat center center/cover;
+    position: relative;
+}
 
 /*sign up form styles*/
 .form-title {
