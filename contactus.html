@@ -15,39 +15,34 @@
     <link rel="manifest" href="/site.webmanifest">
     <!--style sheet-->
     <link rel="stylesheet" href="assets/css/style.css">
-    <!--font awesome javascrip code-->
+    <!--font awesome javascript code-->
     <script src="https://kit.fontawesome.com/7510931dc2.js" crossorigin="anonymous"></script>
     
 </head>
 <body>
-   
-            <header>
-                <a href="index.html" class="logo-style">
-                    <h1 id="logo">Charity Chess</h1>
-                </a>
-            </header>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="activities.html">Our Activities</a></li>
-                    <li><a href="signup.html" class ="active">Sign-Up</a></li>
-                    <li><a href="contactus.html">Contact US</a></li>
-                </ul>
-            </nav>
-            <section id="contact-us-image">
-                <div id="contacts">
-                    <h2>Our location:</h2>
-                   <p>125 Homfarm Road</p>
-                   <p>D07 AF50</p>
-                    <h2>Contact Numbers</h2>
-                        <p>Tel: 016477890</p>
-                        <p>Mobile: 087645897</p>
-                        <h2>Email</h2>
-                        <p>charitychess@live.com</p>
-                    </div>
-
-
-            </section>
-    
+    <header aria-label="Main site header">
+        <a href="index.html" class="logo-style" aria-label="Charity Chess Homepage">
+            <h1 id="logo">Charity Chess</h1>
+        </a>
+    </header>
+    <nav aria-label="Primary navigation">
+        <ul class="nav-links">
+            <li><a href="index.html" aria-label="Navigate to Home page">Home</a></li>
+            <li><a href="activities.html" aria-label="Navigate to Our Activities page">Our Activities</a></li>
+            <li><a href="signup.html" aria-label="Navigate to Sign-Up page" class="active">Sign-Up</a></li>
+            <li><a href="contactus.html" aria-label="Navigate to Contact Us page">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section id="contact-us-image" aria-labelledby="contacts">
+        <div id="contacts">
+            <h2>Our location:</h2>
+            <p aria-label="Location address">125 Homfarm Road, D07 AF50</p>
+            <h2 aria-label="Contact Numbers">Contact Numbers:</h2>
+            <p aria-label="Telephone number">Tel: 016477890</p>
+            <p aria-label="Mobile number">Mobile: 087645897</p>
+            <h2 aria-label="Email">Email:</h2>
+            <p aria-label="Email address">charitychess@live.com</p>
+        </div>
+    </section>
 </body>
 </html>

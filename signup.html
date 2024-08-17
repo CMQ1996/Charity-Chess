@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <html lang="en">
-
-<head>
     <!--meta tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,52 +18,50 @@
     <!--font awesome javascrip code-->
     <script src="https://kit.fontawesome.com/7510931dc2.js" crossorigin="anonymous"></script>
 </head>
-    <title>Document</title>
-</head>
 <body>
-    <body>
-        <header>
-            <a href="index.html" class="logo-style">
-                <h1 id="logo">Charity Chess</h1>
-            </a>
-        </header>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="activities.html">Our Activities</a></li>
-                <li><a href="signup.html" class ="active">Sign-Up</a></li>
-                <li><a href="contactus.html">Contact US</a></li>
-            </ul>
-        </nav>
-        <!--sign up form for chess club-->
-        <div class ="form-title"><h2>Chess Club Signup</h2></div>
-        <div class="signup-form">
-            
-            <form action="submit_form.php" method="post">
-                <label for="name">Full Name</label>
-                <input type="text" id="name" name="name" required>
-        
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="email" required>
-        
-                <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" name="phone" required>
-        
-                <label for="level">Skill Level</label>
-                <select id="level" name="level" required>
-                    <option value="beginner">Beginner</option>
-                    <option value="intermediate">Intermediate</option>
-                    <option value="advanced">Advanced</option>
-                </select>
-        
-                <label for="comments">Additional Comments</label>
-                <textarea id="comments" name="comments" rows="4"></textarea>
-        
-                <button type="submit">Sign Up</button>
-            </form>
-        </div>
-        <footer>
-            
-        </footer>
+    <header>
+        <a href="index.html" class="logo-style" aria-label="Homepage">
+            <h1 id="logo">Charity Chess</h1>
+        </a>
+    </header>
+    <nav aria-label="Main navigation">
+        <ul class="nav-links">
+            <li><a href="index.html" aria-label="Home page">Home</a></li>
+            <li><a href="activities.html" aria-label="Our Activities page">Our Activities</a></li>
+            <li><a href="signup.html" class="active" aria-label="Sign-Up page">Sign-Up</a></li>
+            <li><a href="contactus.html" aria-label="Contact Us page">Contact Us</a></li>
+        </ul>
+    </nav>
+    <!--sign up form for chess club-->
+    <div class="form-title">
+        <h2 aria-label="Chess Club Signup form">Chess Club Signup</h2>
+    </div>
+    <div class="signup-form">
+        <form action="submit_form.php" method="post" aria-label="Sign-Up Form">
+            <label for="name" aria-label="Full Name input">Full Name</label>
+            <input type="text" id="name" name="name" required aria-required="true">
+    
+            <label for="email" aria-label="Email Address input">Email Address</label>
+            <input type="email" id="email" name="email" required aria-required="true">
+    
+            <label for="phone" aria-label="Phone Number input">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required aria-required="true">
+    
+            <label for="level" aria-label="Skill Level dropdown">Skill Level</label>
+            <select id="level" name="level" required aria-required="true">
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+            </select>
+    
+            <label for="comments" aria-label="Additional Comments input">Additional Comments</label>
+            <textarea id="comments" name="comments" rows="4" aria-label="Additional Comments"></textarea>
+    
+            <button type="submit" aria-label="Submit Sign-Up Form">Sign Up</button>
+        </form>
+    </div>
+    <footer>
+        <!-- Add footer content with ARIA labels if needed -->
+    </footer>
 </body>
 </html>
