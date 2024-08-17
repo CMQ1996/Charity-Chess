@@ -319,6 +319,23 @@ nav {
         padding: 8px;
         /* Adjust padding */
     }
+    .signup-form {
+        padding: 15px;
+    }
+
+    .signup-form h2 {
+        font-size: 22px;
+    }
+
+    .signup-form input[type="text"],
+    .signup-form input[type="email"],
+    .signup-form input[type="tel"],
+    .signup-form select,
+    .signup-form textarea,
+    .signup-form button {
+        padding: 8px;
+        font-size: 14px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -356,5 +373,26 @@ nav {
         /* Further adjust font size */
         padding: 6px;
         /* Further adjust padding */
+    }
+    body {
+        padding: 10px;
+    }
+
+    .signup-form {
+        padding: 10px;
+    }
+
+    .signup-form h2 {
+        font-size: 20px;
+    }
+
+    .signup-form input[type="text"],
+    .signup-form input[type="email"],
+    .signup-form input[type="tel"],
+    .signup-form select,
+    .signup-form textarea,
+    .signup-form button {
+        padding: 6px;
+        font-size: 12px;
     }
 }
