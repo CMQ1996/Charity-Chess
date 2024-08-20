@@ -16,16 +16,33 @@ The Nav bar is located at the top right of the page, while displayed on large sc
 + **Contact** This page contains all the relevant contact information for the Club. 
 
 ![alt text](image-4.png)
-## The Header 
+### The Header 
 
 The header shows the name of the club, which is colored black for better readability against a white background. 
 
 ![alt text](image-5.png)
 
-## About us 
+### About us 
 For the about us section, I used cover text over three images about chess. This way, while telling the story of the club I could enhance the SEO of the website with the input of SEO friendly information. 
 ![alt text](image-9.png)
 ![alt text](image-10.png)
 ![alt text](image-12.png)
 In the "Our Mission" section I included an anchor element which links to the signup form. 
+
+### Contact Us
+The contact us page contains all the relevant information for contacting the chess club. Continuing with the design of the home page, the text appears as cover text over an image. 
+
+![alt text](image-16.png)
+
+### Sign Up Form 
+This page has the sign up form to join the chess club. 
+
+![alt text](image-14.png)
+
+
+
+
+### Footer 
+The footer, on every page except the sign up one contains social meda links. I have also designed it as a sticky footer so the icons stick to the screen even when scrolling. 
+![alt text](image-15.png)
 
