@@ -22,3 +22,10 @@ The header shows the name of the club, which is colored black for better readabi
 
 ![alt text](image-5.png)
 
+## About us 
+For the about us section, I used cover text over three images about chess. This way, while telling the story of the club I could enhance the SEO of the website with the input of SEO friendly information. 
+![alt text](image-9.png)
+![alt text](image-10.png)
+![alt text](image-12.png)
+In the "Our Mission" section I included an anchor element which links to the signup form. 
+
