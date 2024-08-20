@@ -71,6 +71,7 @@ No unfixed bugs.
 - In the githup repository, navigate to settings. 
 - From the source section dropdown tab, select Master Branch. 
 - Once Master Brance is selected, the page provided a link to the completed site. 
+Here is the link to the deployed page [Charity Chess](https://cmq1996.github.io/Charity-Chess/)
 
 ## Credits 
 The meta tags for the page were pulled from the CI [Love Running](https://cmq1996.github.io/Love-Running-walkthrough/) walkthrough project. 
