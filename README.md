@@ -3,7 +3,7 @@
 Charity Chess is a chess club that is dedicated to charitable pursuits while promoting the game of chess. The website is structured to provide information about the club, in a readable and attractive way. 
 
 Users on this site will find it very interactive, with background images and clear easy to read cover text. There is an activies section, listing the ways we use chess to raise money for charities. There is also a signup page whiching brings the user to a fully functioning sign-up form. The contact section in the nav bar has the relevant address, email and phone numbers. 
-![alt text](image-3.png)
+![alt text](image-13.png)
 ## Features
 
 * Navigation 
