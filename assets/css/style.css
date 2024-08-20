@@ -175,8 +175,9 @@ nav {
     background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /*styles form to center of screen*/
     display: flex;
-    position: absolute;
+    position: absolute; 
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -185,7 +186,7 @@ nav {
 .signup-form h2 {
     margin-bottom: 20px;
     font-size: 24px;
-    text-align: center;
+    text-align: center; /*aligns text to center*/
 }
 
 .signup-form label {

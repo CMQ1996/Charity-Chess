@@ -39,10 +39,44 @@ This page has the sign up form to join the chess club.
 
 ![alt text](image-14.png)
 
-
-
-
 ### Footer 
 The footer, on every page except the sign up one contains social meda links. I have also designed it as a sticky footer so the icons stick to the screen even when scrolling. 
 ![alt text](image-15.png)
+
+## Testing 
++ I tested that this site works on multiple search engines, such as chrome, microsoft edge and safari. 
+
++ I confirmed that this page functions, looks good and is readable on all screen sizes in the dev tools. 
+
++ I have confirmed that the form works and requires every entry field. 
+
+### Bugs
+
+When deploying this site, I ran into issues with the sign up form. 
+![alt text](<Screenshot 2024-08-15 030920.png>)
+With the help of a tutor, I changed the CSS to ensure that the sign up form would appear the way it does. 
+![alt text](image-17.png)
+
+### Validator Testing 
+
++ HTML: There were no issues with the HTML in the W3C validator. 
++ CSS: No errors were found through the official jigsaw validator. 
++ Accessability: I confirmed, through Lighthouse that the site is accessable and SEO friendly. 
+![alt text](image-18.png)
+
+### Unfixed Bugs 
+No unfixed bugs. 
+## Deployment 
++ The site was deployed to gitup pages, and the steps to do so are as follows: 
+- In the githup repository, navigate to settings. 
+- From the source section dropdown tab, select Master Branch. 
+- Once Master Brance is selected, the page provided a link to the completed site. 
+
+## Credits 
+The meta tags for the page were pulled from the CI [Love Running](https://cmq1996.github.io/Love-Running-walkthrough/) walkthrough project. 
+The layout and feel for the site was also heavily inspired by [Sports Against Racism](https://www.sari.ie/), albeit much more simplified. 
+## Media 
+All images on the site were taken from [Pexels](https://www.pexels.com/).
+The favicon for the page was taken from [Favicon](https://favicon.io/).
+
 
