@@ -13,7 +13,7 @@ body {
 
 nav {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     /*moves navbar content to the center*/
     text-align: right;
     padding-left: 0;
@@ -57,7 +57,7 @@ nav {
     letter-spacing: 2px;
     font-size: 6vh;
     color: black;
-    text-align: left;
+    text-align: center;
     /*This aligns the text to the left to make it more visually appealing*/
     padding-top: 5rem;
 }
@@ -273,6 +273,7 @@ nav {
     color: white;
 }
 
+/*improved contrast for footer icons on signup page*/
 .improved-contrast #social-networks i {
     color: #3a3a3a;
 }    
