@@ -273,6 +273,11 @@ nav {
     color: white;
 }
 
+.improved-contrast #social-networks i {
+    color: #3a3a3a;
+    /* Gold color for better contrast */
+}
+
 /*media query for nav bar*/
 @media only screen and (max-width: 768px) {
     nav {
