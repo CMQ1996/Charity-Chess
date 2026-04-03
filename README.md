@@ -40,11 +40,14 @@ This page has the sign up form to join the chess club.
 ![signup form screenshot](assets\images\signup.form.section.png)
 
 ### Footer 
-The footer, on every page contains social meda links. I have also designed it as a sticky footer so the icons stick to the screen even when scrolling. 
-![Sticky footer](assets\images\stickyfooter.sect.png)
-On the signup and thank you page I used a different color to create better contrast.
-![Sticky footer black](assets\images\sticky.foot.cont.png)
-![Sticky footer black thank you](assets\images\sticky.footer.black.contr.png)
+The footer, on every page, contains social media links. I have also designed it as a sticky footer so the icons stick to the screen even when scrolling.  
+
+![Sticky footer](assets/images/stickyfooter.sect.png)  
+
+The Sign Up and Thank You pages have a different color to create better contrast.  
+
+![Sticky footer black](assets/images/sticky.foot.cont.png)  
+![Sticky footer black thank you](assets/images/sticky.footer.black.contr.png)
 ## Testing 
 + I tested that this site works on multiple search engines, such as chrome, microsoft edge and safari. 
 
