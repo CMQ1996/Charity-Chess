@@ -68,7 +68,7 @@ The Sign Up and Thank You pages have a different color to create better contrast
 
 When deploying this site, I ran into issues with the sign-up form.
 
-![Incomplete Signup form](assets\images\incomplete-signup.png)
+![Incomplete Signup form](assets/images/incomplete-signup.png)
 
 With the help of a tutor, I changed the CSS to ensure that the sign-up form would appear the way it does.
 
