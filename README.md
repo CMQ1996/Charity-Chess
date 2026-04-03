@@ -25,19 +25,15 @@ The header shows the name of the club, which is colored black for better readabi
 
 ![Screenshot of header](assets/images/headerss.png)
 
-### About Us
+### About Us 
 
-For the About Us section, I used cover text over three images about chess. This way, while telling the story of the club, I could enhance the SEO of the website with SEO-friendly information.
+For the about us section, I used cover text over three images about chess. This way, while telling the story of the club I could enhance the SEO of the website with SEO-friendly information. 
 
 ![Screenshot of about us](assets/images/about.us.section.png)
-![Screenshot of Our Vision](assets/images/our.vision.section.png)
+![Screenshot of Our Vision](assets/images/our.vision.sect.png)
 ![Screenshot of Our Mission](assets/images/our.mission.section.png)
 
 In the "Our Mission" section, I included an anchor element which links to the signup form.
-
-### Contact Us
-
-The Contact Us page contains all the relevant information for contacting the chess club. Continuing with the design of the home page, the text appears as cover text over an image.
 
 ![Contact Us screenshot](assets/images/contact.us.sectio.png)
 
