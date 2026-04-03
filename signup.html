@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Sign up for Charity Chess in Dublin. Join our chess tournaments and support local causes through the game of chess.">
     <!--Page title-->
-    <title>Charity Chess</title>
+    <title>Charity Chess Signup</title>
     <!--favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
@@ -14,25 +14,29 @@
     <link rel="manifest" href="/site.webmanifest">
     <!--style sheet-->
     <link rel="stylesheet" href="assets/css/style.css">
-    <!--font awesome javascrip code-->
+    <!--font awesome javascript code-->
     <script src="https://kit.fontawesome.com/7510931dc2.js" crossorigin="anonymous"></script>
 </head>
-<!--body for form-->
 <body class="improved-contrast">
+
+  
     <header>
-        <a href="index.html" class="logo-style" aria-label="Homepage">
-            <h1 id="logo">Charity Chess</h1>
-        </a>
+        <div class="header-container">
+            <a href="index.html" class="logo-style" aria-label="Homepage">
+                <h1 id="logo">Charity Chess</h1>
+            </a>
+            <nav aria-label="Main navigation">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="activities.html">Our Activities</a></li>
+                    <li><a href="signup.html" class="active">Sign-Up</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <nav aria-label="Main navigation">
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="activities.html">Our Activities</a></li>
-            <li><a href="signup.html">Sign-Up</a></li>
-            <li><a href="contactus.html">Contact Us</a></li>
-        </ul>
-    </nav>
-    <!--sign up form for chess club-->
+
+    <!-- Sign up form -->
     <div class="form-title">
         <h2 aria-label="Chess Club Signup form">Chess Club Signup</h2>
     </div>
@@ -40,13 +44,13 @@
         <form action="thankyou.html" method="get" aria-label="Sign-Up Form">
             <label for="name" aria-label="Full Name input">Full Name</label>
             <input type="text" id="name" name="name" required aria-required="true">
-    
+
             <label for="email" aria-label="Email Address input">Email Address</label>
             <input type="email" id="email" name="email" required aria-required="true">
-    
+
             <label for="phone" aria-label="Phone Number input">Phone Number</label>
             <input type="tel" id="phone" name="phone" required aria-required="true">
-    
+
             <label for="level" aria-label="Skill Level dropdown">Skill Level</label>
             <select id="level" name="level" required aria-required="true">
                 <option value="" disabled selected>Select your skill level</option>
@@ -54,28 +58,28 @@
                 <option value="intermediate">Intermediate</option>
                 <option value="advanced">Advanced</option>
             </select>
-    
+
             <label for="comments" aria-label="Additional Comments input">Additional Comments</label>
             <textarea id="comments" name="comments" rows="4" aria-label="Additional Comments"></textarea>
-    
+
             <button type="submit" aria-label="Submit Sign-Up Form">Sign Up</button>
         </form>
     </div>
+
+    <!-- Footer -->
     <footer>
         <ul id="social-networks" aria-label="Social media links">
-            <li> <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)">
+            <li> <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)">
                     <i class="fa-brands fa-facebook"></i></a>
             </li>
-            <li> <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)">
+            <li> <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)">
                     <i class="fa-brands fa-square-instagram"></i></a>
             </li>
-            <li> <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our YouTube page (opens in a new tab)">
+            <li> <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our YouTube page (opens in a new tab)">
                     <i class="fa-brands fa-youtube"></i></a>
             </li>
         </ul>
     </footer>
+
 </body>
 </html>

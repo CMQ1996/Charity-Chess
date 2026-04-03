@@ -65,6 +65,15 @@ nav {
 .logo-style {
     text-decoration: none;
 }
+/*New styling for header container to prevent content stretching across large screens*/
+.header-containter {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 /*body image styling*/
 #chess-image {
